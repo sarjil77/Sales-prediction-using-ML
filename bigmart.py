@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 # loading the saved models
-model = jb.load(open("C:/Machine Learning/Deploying ML models/Big mart/big.sav","rb"))
+model = jb.load(open("big.sav","rb"))
 
 # Function to make predictions
 def predict_sales(input_data):
